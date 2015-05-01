@@ -4,23 +4,22 @@ from setuptools import setup
 
 
 setup(
-    name='threatbutt',
-    version='1.0.8',
-    provides=['threatbutt'],
-    author='c0wl',
-    url='https://github.com/ivanlei/threatbutt',
+    name='Starter',
+    version='0.0.1',
+    provides=['starter'],
+    author='sroberts',
+    url='https://github.com/sroberts/python-starter',
     setup_requires='setuptools',
     license='Apache License v 2.0',
-    author_email='ivanlei@yelp.com',
-    description='Defense in derpth - maximum protection from hacker threats like 4Chan and Reddit.',
+    author_email='scott.roberts@gmail.com',
+    description='A start.',
     packages=find_packages(),
     install_requires=[
-        'argparse==1.3.0',
-        'requests==2.6.2'
+        'argparse==1.3.0'
     ],
     entry_points={
         'console_scripts': [
-            'threatbutt=threatbutt.threatbutt:main',
+            'starter=starter.starter:main',
         ],
     },
 )
