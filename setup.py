@@ -4,7 +4,7 @@ from setuptools import setup
 
 
 setup(
-    name='Starter',
+    name='starter',
     version='0.0.1',
     provides=['starter'],
     author='sroberts',
